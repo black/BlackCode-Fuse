@@ -1,0 +1,88 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_LIST__UNO_COLLECTIONS_DICTIONARY_OUTRACKS_SIMUL_C14837E5_H__
+#define __APP_UNO_COLLECTIONS_LIST__UNO_COLLECTIONS_DICTIONARY_OUTRACKS_SIMUL_C14837E5_H__
+
+#include <app/Uno.Collections.IEnumerable__Uno_Collections_Dictionary_Outrack-73bc45f4.h>
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type; } } }
+namespace app { namespace Uno { namespace Collections { struct List1_Enumerator__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_;
+
+struct List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___uType : ::uClassType
+{
+    ::app::Uno::Collections::IEnumerable__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_ __interface_0;
+};
+
+List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___uType* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___typeof();
+
+::uObject* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___GetEnumerator_boxed(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type____ObjInit(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type____ObjInit_1(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int capacity);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Add(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___AddRange(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::uObject* items);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___BoundsCheck(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int index);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Clear(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+bool List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Contains(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___EnsureCapacity(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+int List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___get_Count(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___get_Item(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int index);
+::app::Uno::Collections::List1_Enumerator__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_ List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___GetEnumerator(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+int List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___IndexOf(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Insert(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int index, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item);
+List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___New_1(::uStatic* __this);
+List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___New_2(::uStatic* __this, int capacity);
+bool List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Remove(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___RemoveAt(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int index);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___set_Item(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, int index, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* value);
+void List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Sort(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this, ::uDelegate* comparer);
+::uArray* List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___ToArray(List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_* __this);
+
+struct List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_ : ::uObject
+{
+    ::uStrong< ::uArray*> _data;
+    int _used;
+    int _version;
+
+    ::uObject* GetEnumerator_boxed() { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___GetEnumerator_boxed(this); }
+    void _ObjInit() { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type____ObjInit(this); }
+    void _ObjInit_1(int capacity) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type____ObjInit_1(this, capacity); }
+    void Add(::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Add(this, item); }
+    void AddRange(::uObject* items) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___AddRange(this, items); }
+    void BoundsCheck(int index) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___BoundsCheck(this, index); }
+    void Clear() { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Clear(this); }
+    bool Contains(::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item) { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Contains(this, item); }
+    void EnsureCapacity() { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___EnsureCapacity(this); }
+    int Count() { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___get_Count(this); }
+    ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* Item(int index) { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___get_Item(this, index); }
+    ::app::Uno::Collections::List1_Enumerator__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_ GetEnumerator();
+    int IndexOf(::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item) { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___IndexOf(this, item); }
+    void Insert(int index, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Insert(this, index, item); }
+    bool Remove(::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* item) { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Remove(this, item); }
+    void RemoveAt(int index) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___RemoveAt(this, index); }
+    void Item(int index, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* value) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___set_Item(this, index, value); }
+    void Sort(::uDelegate* comparer) { List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___Sort(this, comparer); }
+    ::uArray* ToArray() { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___ToArray(this); }
+};
+
+}}}
+
+#include <app/Uno.Collections.List1_Enumerator__Uno_Collections_Dictionary_Ou-5084e8c5.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::List1_Enumerator__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_ List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type_::GetEnumerator() { return List__Uno_Collections_Dictionary_Outracks_Simulator_Bytecode_TypeName_Uno_Type___GetEnumerator(this); }
+
+}}}
+
+
+#endif

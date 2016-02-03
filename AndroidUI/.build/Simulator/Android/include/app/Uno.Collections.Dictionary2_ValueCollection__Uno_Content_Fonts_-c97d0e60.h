@@ -1,0 +1,55 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__UNO_CONTENT_FONTS__C97D0E60_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__UNO_CONTENT_FONTS__C97D0E60_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__Uno_Content_Fonts_BitmapFont_CharPair__float; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__Uno_Content_Fonts_BitmapFont_CharPair__float; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float;
+
+struct Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__uType* Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__typeof();
+
+void Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float___ObjInit(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this, ::app::Uno::Collections::Dictionary__Uno_Content_Fonts_BitmapFont_CharPair__float* source);
+int Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__get_Count(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Uno_Content_Fonts_BitmapFont_CharPair__float Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__GetEnumerator(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this);
+Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__Uno_Content_Fonts_BitmapFont_CharPair__float* source);
+void Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this, float item);
+void Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this);
+bool Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this, float item);
+bool Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float* __this, float item);
+
+struct Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__Uno_Content_Fonts_BitmapFont_CharPair__float*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__Uno_Content_Fonts_BitmapFont_CharPair__float* source) { Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float___ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Uno_Content_Fonts_BitmapFont_CharPair__float GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__Uno_Con-4935b8c4.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Uno_Content_Fonts_BitmapFont_CharPair__float Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float::GetEnumerator() { return Dictionary2_ValueCollection__Uno_Content_Fonts_BitmapFont_CharPair__float__GetEnumerator(this); }
+
+}}}
+
+
+#endif

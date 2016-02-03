@@ -1,0 +1,12 @@
+<App>
+    <DockPanel>
+        <Panel>
+        	<Rectangle Width="100" Height="100" Fill="#000" Alignment="TopRight" TransformOrigin="Anchor" >
+        		<AddingAnimation>
+        			<Scale Factor="4" Duration="2" Easing="Linear"/>
+            	</AddingAnimation>
+        	</Rectangle>
+		    
+		</Panel>
+    </DockPanel>
+</App>

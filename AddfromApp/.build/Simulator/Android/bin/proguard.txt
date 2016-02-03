@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:30
+-keep class com.Add_from_App.Add_from_App { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.Add_from_App.Android_android_app_Activity { <init>(...); }
+

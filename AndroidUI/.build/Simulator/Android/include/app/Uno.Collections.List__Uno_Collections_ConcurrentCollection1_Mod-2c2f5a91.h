@@ -1,0 +1,95 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_LIST__UNO_COLLECTIONS_CONCURRENT_COLLECTION1_MOD_2C2F5A91_H__
+#define __APP_UNO_COLLECTIONS_LIST__UNO_COLLECTIONS_CONCURRENT_COLLECTION1_MOD_2C2F5A91_H__
+
+#include <app/Uno.Collections.ConcurrentCollection1_ModItem__Fuse_Animations_-c46c43e5.h>
+#include <app/Uno.Collections.IEnumerable__Uno_Collections_ConcurrentCollecti-8de4c060.h>
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct List1_Enumerator__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_;
+
+struct List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___uType : ::uClassType
+{
+    ::app::Uno::Collections::IEnumerable__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_ __interface_0;
+};
+
+List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___uType* List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___typeof();
+
+::uObject* List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___GetEnumerator_boxed(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster____ObjInit(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster____ObjInit_1(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int capacity);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Add(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___AddRange(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::uObject* items);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___BoundsCheck(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int index);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Clear(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+bool List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Contains(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___EnsureCapacity(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+int List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___get_Count(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___get_Item(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int index);
+::app::Uno::Collections::List1_Enumerator__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_ List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___GetEnumerator(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+int List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___IndexOf(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Insert(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___New_1(::uStatic* __this);
+List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___New_2(::uStatic* __this, int capacity);
+bool List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Remove(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___RemoveAt(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int index);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___set_Item(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster value);
+void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Sort(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this, ::uDelegate* comparer);
+::uArray* List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___ToArray(List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_* __this);
+
+struct List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_ : ::uObject
+{
+    ::uStrong< ::uArray*> _data;
+    int _used;
+    int _version;
+
+    ::uObject* GetEnumerator_boxed() { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___GetEnumerator_boxed(this); }
+    void _ObjInit() { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster____ObjInit(this); }
+    void _ObjInit_1(int capacity) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster____ObjInit_1(this, capacity); }
+    void Add(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+    void AddRange(::uObject* items) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___AddRange(this, items); }
+    void BoundsCheck(int index) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___BoundsCheck(this, index); }
+    void Clear() { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Clear(this); }
+    bool Contains(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+    void EnsureCapacity() { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___EnsureCapacity(this); }
+    int Count() { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___get_Count(this); }
+    ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster Item(int index);
+    ::app::Uno::Collections::List1_Enumerator__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_ GetEnumerator();
+    int IndexOf(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+    void Insert(int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+    bool Remove(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item);
+    void RemoveAt(int index) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___RemoveAt(this, index); }
+    void Item(int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster value);
+    void Sort(::uDelegate* comparer) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Sort(this, comparer); }
+    ::uArray* ToArray() { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___ToArray(this); }
+};
+
+}}}
+
+#include <app/Uno.Collections.List1_Enumerator__Uno_Collections_ConcurrentCol-2b5cb774.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Add(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Add(this, item); }
+inline bool List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Contains(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item) { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Contains(this, item); }
+inline ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Item(int index) { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___get_Item(this, index); }
+inline ::app::Uno::Collections::List1_Enumerator__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_ List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::GetEnumerator() { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___GetEnumerator(this); }
+inline int List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::IndexOf(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item) { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___IndexOf(this, item); }
+inline void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Insert(int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Insert(this, index, item); }
+inline bool List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Remove(::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster item) { return List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___Remove(this, item); }
+inline void List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster_::Item(int index, ::app::Uno::Collections::ConcurrentCollection1_ModItem__Fuse_Animations_IMixerMaster value) { List__Uno_Collections_ConcurrentCollection1_ModItem_Fuse_Animations_IMixerMaster___set_Item(this, index, value); }
+
+}}}
+
+
+#endif

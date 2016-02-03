@@ -1,0 +1,56 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__FUSE_NAVIGATION_NA_14A77DCE_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__FUSE_NAVIGATION_NA_14A77DCE_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Fuse { namespace Gestures { namespace Internal { struct EdgeSwiper; } } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper;
+
+struct Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__uType* Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__typeof();
+
+void Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper___ObjInit(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this, ::app::Uno::Collections::Dictionary__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* source);
+int Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__get_Count(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__GetEnumerator(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this);
+Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* source);
+void Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this, ::app::Fuse::Gestures::Internal::EdgeSwiper* item);
+void Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this);
+bool Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this, ::app::Fuse::Gestures::Internal::EdgeSwiper* item);
+bool Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* __this, ::app::Fuse::Gestures::Internal::EdgeSwiper* item);
+
+struct Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper* source) { Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper___ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__Fuse_Na-1b16e10e.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper::GetEnumerator() { return Dictionary2_ValueCollection__Fuse_Navigation_NavigationEdge__Fuse_Gestures_Internal_EdgeSwiper__GetEnumerator(this); }
+
+}}}
+
+
+#endif

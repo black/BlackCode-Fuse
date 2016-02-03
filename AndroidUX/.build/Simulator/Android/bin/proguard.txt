@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:30
+-keep class com.Android_UX.Android_UX { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.Android_UX.Android_android_app_Activity { <init>(...); }
+

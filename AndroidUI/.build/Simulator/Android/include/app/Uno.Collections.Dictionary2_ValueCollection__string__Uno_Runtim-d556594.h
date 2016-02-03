@@ -1,0 +1,56 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__STRING__UNO_RUNTIM_D556594_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__STRING__UNO_RUNTIM_D556594_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram; } } }
+namespace app { namespace Uno { namespace Runtime { namespace Implementation { namespace ShaderBackends { namespace OpenGL { struct GLCompiledProgram; } } } } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram;
+
+struct Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__uType* Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__typeof();
+
+void Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram___ObjInit(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this, ::app::Uno::Collections::Dictionary__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* source);
+int Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__get_Count(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__GetEnumerator(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this);
+Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* source);
+void Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this, ::app::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLCompiledProgram* item);
+void Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this);
+bool Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this, ::app::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLCompiledProgram* item);
+bool Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* __this, ::app::Uno::Runtime::Implementation::ShaderBackends::OpenGL::GLCompiledProgram* item);
+
+struct Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram* source) { Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram___ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__string_-f698e5dc.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram::GetEnumerator() { return Dictionary2_ValueCollection__string__Uno_Runtime_Implementation_ShaderBackends_OpenGL_GLCompiledProgram__GetEnumerator(this); }
+
+}}}
+
+
+#endif

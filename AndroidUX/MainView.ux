@@ -1,0 +1,69 @@
+<App Theme="Basic" Background="#eeeeeeff">
+	<DockPanel>
+		<iOS.StatusBarConfig ux:Name="statusBarConfig" Style="Light" IsVisible="true"/>
+		<Panel>
+			<Style>
+				<Text TextAlignment="Center" FontSize="16" TextWrapping="Wrap" Y="100" TextColor="#fff"/>
+				<Image StretchMode="UniformToFill"/>
+				<Page>
+					<EnteringAnimation>
+						<Move X="-1" RelativeTo="ParentSize"/>
+					</EnteringAnimation>
+					<ExitingAnimation>
+						<Move X="1" RelativeTo="ParentSize"/>
+					</ExitingAnimation>
+				</Page>
+			</Style>
+			<PageIndicator Navigation="navigation" Alignment="BottomCenter" Margin="30">
+				<Circle ux:Generate="Factory" ux:Binding="DotFactory" Width="10" Height="10" Margin="6">
+					<SolidColor ux:Name="color" Color="#999"/>
+					<ActivatingAnimation>
+						<Change color.Color="#fff" />
+					</ActivatingAnimation>
+				</Circle>
+			</PageIndicator>
+			<Panel>
+				<LinearNavigation ux:Name="navigation" Easing="CircularOut"/>
+				<WhileTrue ux:Name="canSwipe" Value="true">
+					<SwipeNavigate ux:Name="swipeNavigate" SwipeDirection="Left" SwipeEnds="Closed"/>
+				</WhileTrue>
+				<Page>
+					<Text Width="60%">This button triggers the phone's vibrate function</Text>
+						<Button Text="Vibrate" Height="45" Alignment="Bottom" Margin="20,80">
+							<Clicked>
+								<Fuse.Vibration.Vibrate Duration="0.2"/>
+							</Clicked>
+						</Button>
+					<Image File="Assets/background1.png"/>
+				</Page>
+				<Page ux:Name="page2">
+					<Text Width="70%">This toggle switch disables your ability to swipe between pages</Text>
+					<Switch Alignment="BottomCenter" Margin="0,80">
+						<WhileTrue>
+							<Change canSwipe.Value="false"/>
+						</WhileTrue>
+					</Switch>
+					<Image File="Assets/background2.png"/>
+					<WhileActive Threshold="0.5">
+						<Change statusBarConfig.Style="Dark"/>
+					</WhileActive>
+				</Page>
+				<Page ux:Name="page3">
+					<Text Width="70%">This slider blurs the background image</Text>
+					<Slider Width="50%" Alignment="Bottom" Margin="0,80">
+						<ProgressAnimation>
+							<Change blur.Radius="5"/>
+						</ProgressAnimation>
+					</Slider>
+					<GraphicsView>
+						<Image File="Assets/background3.png" Margin="-10">
+							<Blur ux:Name="blur" Radius="0"/>
+						</Image>
+					</GraphicsView>
+				</Page>
+			</Panel>
+		</Panel>
+		<BottomBarBackground Dock="Bottom" />
+	</DockPanel>
+</App>
+

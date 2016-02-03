@@ -1,0 +1,30 @@
+<App Theme="Basic" Background="#eeeeeeff">
+	<PageControl>
+		<Page Background="#E74C3C">
+			<DockPanel>
+				<StackPanel Orientation="Vertical" Padding="0,150,0,0" Dock="Top" >
+					<Image  File="image/logo.png" Width="100" Height="100"></Image> 
+					<Text TextColor="#fff" Alignment="Center" FontSize="32" Margin="0,20,0,0">Cubeit</Text>
+					<Text TextColor="#fff" Alignment="Center" FontSize="20" Margin="0,8,0,0">Collect and Share</Text>
+				</StackPanel>
+				<Rectangle Width="200" Height="48" Fill="#fff" CornerRadius="5,5" Margin="0,40,0,150" Dock="Bottom" >
+						<Text TextColor="#E74C3C" Alignment="Center" FontSize="16">LOGIN</Text>
+						<WhilePressed>
+							
+						</WhilePressed>
+				</Rectangle>
+			</DockPanel>
+		</Page>
+		<Page ux:Name="Slide" Background="#838383">
+			<Image ux:Name="logo" File="image/logo.png" Width="100" Height="100"></Image>
+			<WhileActive>
+				<Change timeline.TargetProgress="1" />
+			</WhileActive>
+			<Timeline ux:Name="timeline">
+				<Change logo.Opacity="0.5"     Duration="1" Easing="BackIn"  />
+				<Move Target="logo" Y="-1"   Duration="1"   Delay="1" Easing="BackOut" RelativeTo="Size" /> 
+			</Timeline>
+		</Page>
+	</PageControl>
+</App>
+

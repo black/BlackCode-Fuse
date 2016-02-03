@@ -1,0 +1,56 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__INT__UNO_COLLECTIO_49CB5349_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__INT__UNO_COLLECTIO_49CB5349_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_; } } }
+namespace app { namespace Uno { namespace Collections { struct List__Fuse_Input_Pointer_PELHolder; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_;
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___uType* Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___typeof();
+
+void Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder____ObjInit(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this, ::app::Uno::Collections::Dictionary__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* source);
+int Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___get_Count(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_ Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___GetEnumerator(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this);
+Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* source);
+void Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this, ::app::Uno::Collections::List__Fuse_Input_Pointer_PELHolder* item);
+void Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this);
+bool Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this, ::app::Uno::Collections::List__Fuse_Input_Pointer_PELHolder* item);
+bool Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* __this, ::app::Uno::Collections::List__Fuse_Input_Pointer_PELHolder* item);
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_ : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_* source) { Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder____ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_ GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__int__Un-fea35bdd.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_ Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder_::GetEnumerator() { return Dictionary2_ValueCollection__int__Uno_Collections_List_Fuse_Input_Pointer_PELHolder___GetEnumerator(this); }
+
+}}}
+
+
+#endif

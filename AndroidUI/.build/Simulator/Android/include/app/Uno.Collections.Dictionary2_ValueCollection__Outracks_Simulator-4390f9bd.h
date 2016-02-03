@@ -1,0 +1,55 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__OUTRACKS_SIMULATOR_4390F9BD_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__OUTRACKS_SIMULATOR_4390F9BD_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__Outracks_Simulator_Bytecode_TypeName__Uno_Type; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type;
+
+struct Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__uType* Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__typeof();
+
+void Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type___ObjInit(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* source);
+int Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__get_Count(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Outracks_Simulator_Bytecode_TypeName__Uno_Type Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__GetEnumerator(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this);
+Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* source);
+void Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this, ::uType* item);
+void Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this);
+bool Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this, ::uType* item);
+bool Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type* __this, ::uType* item);
+
+struct Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__Outracks_Simulator_Bytecode_TypeName__Uno_Type* source) { Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type___ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Outracks_Simulator_Bytecode_TypeName__Uno_Type GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__Outrack-5d86b9e4.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__Outracks_Simulator_Bytecode_TypeName__Uno_Type Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type::GetEnumerator() { return Dictionary2_ValueCollection__Outracks_Simulator_Bytecode_TypeName__Uno_Type__GetEnumerator(this); }
+
+}}}
+
+
+#endif

@@ -1,0 +1,33 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\Fuse.Triggers\0.19.3\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#pragma once
+#include <Fuse.Triggers.WhileTrigger.h>
+namespace g{namespace Fuse{namespace Triggers{struct WhileNotFocused;}}}
+namespace g{namespace Fuse{struct Node;}}
+namespace g{namespace Uno{struct EventArgs;}}
+
+namespace g{
+namespace Fuse{
+namespace Triggers{
+
+// public sealed class WhileNotFocused :1328
+// {
+::g::Fuse::Triggers::Trigger_type* WhileNotFocused_typeof();
+void WhileNotFocused__ctor_3_fn(WhileNotFocused* __this);
+void WhileNotFocused__New1_fn(WhileNotFocused** __retval);
+void WhileNotFocused__OnGotFocus_fn(WhileNotFocused* __this, uObject* sender, ::g::Uno::EventArgs* args);
+void WhileNotFocused__OnLostFocus_fn(WhileNotFocused* __this, uObject* sender, ::g::Uno::EventArgs* args);
+void WhileNotFocused__OnRooted_fn(WhileNotFocused* __this, ::g::Fuse::Node* parentNode);
+void WhileNotFocused__OnUnrooted_fn(WhileNotFocused* __this, ::g::Fuse::Node* parentNode);
+
+struct WhileNotFocused : ::g::Fuse::Triggers::WhileTrigger
+{
+    void ctor_3();
+    void OnGotFocus(uObject* sender, ::g::Uno::EventArgs* args);
+    void OnLostFocus(uObject* sender, ::g::Uno::EventArgs* args);
+    static WhileNotFocused* New1();
+};
+// }
+
+}}} // ::g::Fuse::Triggers

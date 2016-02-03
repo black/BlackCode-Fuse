@@ -1,0 +1,56 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_KEY_COLLECTION__FUSE_ENTITIES_MATERI_C09C04E7_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_KEY_COLLECTION__FUSE_ENTITIES_MATERI_C09C04E7_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Fuse { namespace Entities { struct Material; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_KeyCollection_Enumerator__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_;
+
+struct Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___uType : ::uClassType
+{
+};
+
+Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___uType* Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___typeof();
+
+void Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry____ObjInit(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this, ::app::Uno::Collections::Dictionary__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* source);
+int Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___get_Count(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this);
+::app::Uno::Collections::Dictionary2_KeyCollection_Enumerator__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_ Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___GetEnumerator(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this);
+Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* source);
+void Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___Uno_Collections_ICollection_Add(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this, ::app::Fuse::Entities::Material* item);
+void Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___Uno_Collections_ICollection_Clear(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this);
+bool Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___Uno_Collections_ICollection_Contains(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this, ::app::Fuse::Entities::Material* item);
+bool Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___Uno_Collections_ICollection_Remove(Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* __this, ::app::Fuse::Entities::Material* item);
+
+struct Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_ : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_* source) { Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry____ObjInit(this, source); }
+    int Count() { return Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_KeyCollection_Enumerator__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_ GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_KeyCollection_Enumerator__Fuse_Enti-edbd95d5.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_KeyCollection_Enumerator__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_ Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry_::GetEnumerator() { return Dictionary2_KeyCollection__Fuse_Entities_Material__Uno_Collections_List_Fuse_Entities_Entry___GetEnumerator(this); }
+
+}}}
+
+
+#endif

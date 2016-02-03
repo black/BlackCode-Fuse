@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:56
+-keep class com.WelcomeAnimation.Android_android_app_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.WelcomeAnimation.WelcomeAnimation { <init>(...); }
+

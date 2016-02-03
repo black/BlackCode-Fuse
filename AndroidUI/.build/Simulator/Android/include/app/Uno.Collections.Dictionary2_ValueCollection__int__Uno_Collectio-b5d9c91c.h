@@ -1,0 +1,55 @@
+// This file was generated based on 'C:\ProgramData\Uno\Packages\UnoCore\0.13.2\Source\Uno\Collections\$.uno'.
+// WARNING: Changes might be lost if you edit this file directly.
+
+#ifndef __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__INT__UNO_COLLECTIO_B5D9C91C_H__
+#define __APP_UNO_COLLECTIONS_DICTIONARY2_VALUE_COLLECTION__INT__UNO_COLLECTIO_B5D9C91C_H__
+
+#include <app/Uno.Object.h>
+#include <Uno.h>
+namespace app { namespace Uno { namespace Collections { struct Dictionary__int__Uno_Collections_IList_Fuse_Input_Capturer_; } } }
+namespace app { namespace Uno { namespace Collections { struct Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_IList_Fuse_Input_Capturer_; } } }
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_;
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___uType : ::uClassType
+{
+};
+
+Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___uType* Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___typeof();
+
+void Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer____ObjInit(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this, ::app::Uno::Collections::Dictionary__int__Uno_Collections_IList_Fuse_Input_Capturer_* source);
+int Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___get_Count(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this);
+::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_IList_Fuse_Input_Capturer_ Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___GetEnumerator(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this);
+Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___New_1(::uStatic* __this, ::app::Uno::Collections::Dictionary__int__Uno_Collections_IList_Fuse_Input_Capturer_* source);
+void Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___Uno_Collections_ICollection_Add(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this, ::uObject* item);
+void Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___Uno_Collections_ICollection_Clear(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this);
+bool Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___Uno_Collections_ICollection_Contains(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this, ::uObject* item);
+bool Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___Uno_Collections_ICollection_Remove(Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_* __this, ::uObject* item);
+
+struct Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_ : ::uObject
+{
+    ::uStrong< ::app::Uno::Collections::Dictionary__int__Uno_Collections_IList_Fuse_Input_Capturer_*> _source;
+
+    void _ObjInit(::app::Uno::Collections::Dictionary__int__Uno_Collections_IList_Fuse_Input_Capturer_* source) { Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer____ObjInit(this, source); }
+    int Count() { return Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___get_Count(this); }
+    ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_IList_Fuse_Input_Capturer_ GetEnumerator();
+};
+
+}}}
+
+#include <app/Uno.Collections.Dictionary2_ValueCollection_Enumerator__int__Un-379d2f8f.h>
+
+namespace app {
+namespace Uno {
+namespace Collections {
+
+inline ::app::Uno::Collections::Dictionary2_ValueCollection_Enumerator__int__Uno_Collections_IList_Fuse_Input_Capturer_ Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer_::GetEnumerator() { return Dictionary2_ValueCollection__int__Uno_Collections_IList_Fuse_Input_Capturer___GetEnumerator(this); }
+
+}}}
+
+
+#endif
