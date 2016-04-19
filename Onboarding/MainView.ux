@@ -3,7 +3,7 @@
 		<Page Background="#E74C3C">
 			<DockPanel>
 				<StackPanel Orientation="Vertical" Padding="0,150,0,0" Dock="Top" >
-					<Image  File="image/logo.png" Width="100" Height="100"></Image> 
+					<Image  File="image/logo.png" Width="100" Height="100"></Image>
 					<Text TextColor="#fff" Alignment="Center" FontSize="32" Margin="0,20,0,0">Cubeit</Text>
 					<Text TextColor="#fff" Alignment="Center" FontSize="20" Margin="0,8,0,0">Collect and Share</Text>
 				</StackPanel>
@@ -22,9 +22,8 @@
 			</WhileActive>
 			<Timeline ux:Name="timeline">
 				<Change logo.Opacity="0.5"     Duration="1" Easing="BackIn"  />
-				<Move Target="logo" Y="-1"   Duration="1"   Delay="1" Easing="BackOut" RelativeTo="Size" /> 
+				<Move Target="logo" Y="-1"   Duration="1"   Delay="1" Easing="BackOut" RelativeTo="Size" />
 			</Timeline>
 		</Page>
 	</PageControl>
 </App>
-

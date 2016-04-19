@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:53
+-keep class com.Onboarding.Android_android_app_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.Onboarding.Onboarding { <init>(...); }
+

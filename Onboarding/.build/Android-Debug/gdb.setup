@@ -1,0 +1,4 @@
+directory jni;include;C:/ProgramData/Uno/Packages/UnoCore/0.20.1/Targets/CPlusPlus/Prebuilt/Android/include;C:/Users/Kuro/AppData/Local/VirtualStore/Windows/SysWOW64/android-ndk-r10e/platforms/android-19/arch-arm/usr/include;C:/Users/Kuro/AppData/Local/VirtualStore/Windows/SysWOW64/android-ndk-r10e/sources/cxx-stl/stlport/stlport;C:/Users/Kuro/AppData/Local/VirtualStore/Windows/SysWOW64/android-ndk-r10e/sources/cxx-stl/gabi++/include
+set solib-search-path obj;C:/ProgramData/Uno/Packages/UnoCore/0.20.1/Targets/CPlusPlus/Prebuilt/Android/lib/armeabi-v7a
+sharedlibrary
+set auto-solib-add on
